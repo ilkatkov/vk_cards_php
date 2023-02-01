@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a3600299-19be-485e-abd2-026398d11dde" name="remote">
+        <fileTransfer rootFolder="/var/www/www-root/data/www/vkcards.ilkatkov.ru" accessType="SFTP" host="149.154.68.102" port="22" sshConfigId="6b5b40a7-3024-4216-ad60-4c6d36e69219" sshConfig="root@149.154.68.102:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
