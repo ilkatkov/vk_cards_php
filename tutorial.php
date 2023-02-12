@@ -44,6 +44,7 @@ if (!isset($_SESSION['link'])) {
             <form class="popup">
                 <img src="img/exit.svg" class="close-popup hidden">
                 <p id="popupText"></p>
+                <button type="button" id="btnNext" class="next hidden">Начать</button>
             </form>
         </div> 
     </div>

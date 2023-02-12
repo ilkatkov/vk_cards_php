@@ -98,6 +98,17 @@ button {
     border: none;
 }
 
+.next {
+    width: 128px;
+    height: 48px;
+    margin-top: 0px;
+    font-family: 'VK Sans Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
 button:active {
     background: #DEDEDE;
 }
@@ -126,8 +137,8 @@ button:active {
     font-family: 'VK Sans Display';
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 22px;
+    line-height: 22px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,11 +186,10 @@ button:active {
     }
 
 #popupText {
-    padding: 40px;
     font-family: 'VK Sans Display';
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
-    line-height: 34px;
+    font-size: 24px;
+    line-height: 28px;
     color:#0077FF;
 }

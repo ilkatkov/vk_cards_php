@@ -36,6 +36,12 @@ window.onload = function () {
       
     shuffle(values);
 
+    let prevIndex = values.indexOf("процесс адаптации веб-страниц или веб-интерфейса к использованию на экранах различных устройств");
+    let prevValue = values[0];
+
+    values[0] = values[prevIndex];
+    values[prevIndex] = prevValue;
+
     for (let i = 0; i < values.length; i++) {
         let card = dragCards[i];
         card.value = values[i];

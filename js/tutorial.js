@@ -65,17 +65,21 @@ window.onload = function() {
                     }
                     
                     moveDown(startX);
-                    document.getElementById('popupText').innerHTML = "Соединяй карточки описания с карточками слов";
+                    document.getElementById('popupText').innerHTML = "Соедини определения и термины, наиболее подходящие друг другу";
                     popupBg.classList.add('active');
                     popup.classList.add('active');
-
-                    closePopup.onclick = function(){
+                    
+                    let btnNext = document.getElementById("btnNext");
+                    btnNext.classList.remove('hidden');
+                    closePopup.classList.add('hidden');
+                    btnNext.onclick = function(){
+                        console.log("+");
                         tutorial = false;
                         tutorialDescCard.style.left = startX + 'px';
                         tutorialDescCard.style.removeProperty('position');
                         popupBg.classList.remove('active');
                         popup.classList.remove('active');
-                        location.href = 'cards.php';
+                        window.location.href = 'cards.php';
                     }
                 }, (500));
             }
