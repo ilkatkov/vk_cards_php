@@ -1,8 +1,8 @@
 window.onload = function () {
 
-    let popupBg = document.querySelector('.popup__bg'); // Фон попап окна
-    let popup = document.querySelector('.popup'); // Само окно
-    let closePopupButton = document.querySelector('.close-popup'); // Кнопка для скрытия окна
+    let popupBg = document.querySelector('.popup__bg');
+    let popup = document.querySelector('.popup');
+    let closePopupButton = document.querySelector('.close-popup');
 
     const words = ["Адаптив", "Бэкап", "Дамп", "Деплой", "Капча", "Редирект"];
 

@@ -42,7 +42,7 @@ $errorLink = "Что-то пошло не так...";
                     } else { ?>
                     <p>Твоя задача — соединить карточки слов из IT-сленга с карточками их определений.</p>
                 </div>
-                <a href="cards.php">
+                <a href="tutorial.php">
                     <button>Поехали!</button>
                 </a>
         </section>

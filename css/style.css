@@ -156,6 +156,24 @@ button:active {
     background-image: url('../img/violet_card.svg');
 }
 
+.tutorialCard {
+    z-index: 999;
+}
+
+.hidden {
+    display: none;
+}
+
+.glowing {
+    animation: glowing 1300ms infinite;
+}
+
+@keyframes glowing {
+    0% { background-color: #00EAFF; box-shadow: 0 0 8px #00EAFF; }
+    50% { background-color: #00EAFF; box-shadow: 0 0 48px #00EAFF; }
+    100% { background-color: #00EAFF; box-shadow: 0 0 8px #00EAFF; }
+    }
+
 #popupText {
     padding: 40px;
     font-family: 'VK Sans Display';
