@@ -87,7 +87,7 @@ window.onload = function () {
                                     window.location.href = "finish.php";
                                 }
                             } else {
-                                document.getElementById('popupText').innerHTML = "Упс<br><br>Попробуй другую карточку";
+                                document.getElementById('popupText').innerHTML = "Упс, попробуй другую карточку";
                                 popupBg.classList.add('active');
                                 popup.classList.add('active');
                             }
