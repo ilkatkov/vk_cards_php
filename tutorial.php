@@ -55,9 +55,11 @@ if (!isset($_SESSION['link'])) {
         </section>
         <div class="popup__bg"> 
             <form class="popup">
-                <img src="img/exit.svg" class="close-popup hidden">
-                <p id="popupText"></p>
-                <button type="button" id="btnNext" class="next hidden">Начать</button>
+                <img src="img/exit.svg?v=<?=time()?>" class="close-popup hidden">
+                <div id="popupBox">
+                    <p id="popupText"></p>
+                    <button type="button" id="btnNext" class="next hidden">Начать</button>
+                </div>
             </form>
         </div> 
     </div>

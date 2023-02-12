@@ -115,14 +115,22 @@ button {
 }
 
 .next {
-    width: 128px;
-    height: 48px;
+    width: 160px;
+    height: 40px;
     margin-top: 0px;
     font-family: 'VK Sans Display';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
+    background: #0077FF;
+    border-radius: 14px;
+    font-family: 'VK Sans Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 110%;
+    color: #FFFFFF;
 }
 
 button:active {
@@ -204,11 +212,27 @@ button:active {
     100% { background-color: #00EAFF; box-shadow: 0 0 8px #00EAFF; }
     }
 
-#popupText {
+#popupBox {
+    padding: 48px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.popupStart {
+    padding: 20px 0 !important;
+}
+
+#popupText{
     font-family: 'VK Sans Display';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 22px;
+    line-height: 120%;
     color:#0077FF;
+}
+
+#popupBox>button {
+    margin-top: 20px;
 }

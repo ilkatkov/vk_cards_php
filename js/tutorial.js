@@ -65,6 +65,7 @@ window.onload = function() {
                     }
                     
                     moveDown(startX);
+                    document.getElementById('popupBox').classList.add('popupStart');
                     document.getElementById('popupText').innerHTML = "Соедини определения и термины, наиболее подходящие друг другу";
                     popupBg.classList.add('active');
                     popup.classList.add('active');
