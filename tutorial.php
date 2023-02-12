@@ -20,6 +20,7 @@ if (!isset($_SESSION['link'])) {
 <body>
     <header>
         <img id = "vkLogo" src = "img/logo.svg">
+        <p>Карточки</p>
     </header>
     <div id="page">
         <section class="cardsBox">
@@ -48,6 +49,6 @@ if (!isset($_SESSION['link'])) {
             </form>
         </div> 
     </div>
-    <script src="js/tutorial.js"></script>
+    <script src="js/tutorial.js?v=<?=time()?>"></script>
 </body>
 </html>

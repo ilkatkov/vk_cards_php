@@ -23,7 +23,8 @@ $errorLink = "Что-то пошло не так...";
     </head>
     <body>
         <header>
-            <img id="vkLogo" src="img/logo.svg">
+            <img id = "vkLogo" src = "img/logo.svg">
+            <p>Карточки</p>
         </header>
         <div id="page">
             <section>
