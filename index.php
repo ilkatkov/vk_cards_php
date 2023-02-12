@@ -11,7 +11,7 @@ $error = !$linkDefine || !$mobile;
 $errorMobile = "Приложение доступно только на мобильных устройствах.";
 $errorLink = "Что-то пошло не так...";
 ?>
-
+<!-- https://vkcards.ilkatkov.ru?link=123 -->
 <!DOCTYPE html>
 <html lang="ru">
     <head>
@@ -23,8 +23,11 @@ $errorLink = "Что-то пошло не так...";
     </head>
     <body>
         <header>
-            <img id = "vkLogo" src = "img/logo.svg">
-            <p>Карточки</p>
+            <div class="logoDiv">
+                <img id = "vkLogo" src = "img/logo.svg">
+                <p>Карточки</p>
+            </div>
+            <p>амбассадорский проект</p>
         </header>
         <div id="page">
             <section>

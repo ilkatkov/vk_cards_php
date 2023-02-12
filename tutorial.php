@@ -19,8 +19,11 @@ if (!isset($_SESSION['link'])) {
 </head>
 <body>
     <header>
-        <img id = "vkLogo" src = "img/logo.svg">
-        <p>Карточки</p>
+        <div class="logoDiv">
+            <img id = "vkLogo" src = "img/logo.svg">
+            <p>Карточки</p>
+        </div>
+        <p>амбассадорский проект</p>
     </header>
     <div id="page">
         <section class="cardsBox">

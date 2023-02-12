@@ -35,23 +35,32 @@ header {
     margin: 40px;
     position: fixed;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 40px;
-    gap: 8px;
-    height: 40px;
+}
+
+header>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header>p {
+    font-size: 14.5px;
 }
 
 #vkLogo {
     height: 40px;
     width: 40px;
+    margin-right: 8px;
 }
 
 section {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    touch-action: none;
+    -ms-touch-action: none;
 }
 
 h1 {
@@ -72,6 +81,10 @@ p {
     font-size: 28px;
     line-height: 34px;
     color: #FFFFFF;
+}
+
+h1+p {
+    margin-top: 20px;
 }
 
 #infoBox {
@@ -128,7 +141,6 @@ button:active {
 .cards {
     display: flex;
     flex-direction: column;
-    gap:20px;
 }
 
 .wordCard {
@@ -150,6 +162,7 @@ button:active {
 }
 
 .descCard {
+    -webkit-touch-callout: none;
     height: calc(100vh / 12);
     width: calc(100vw / 3);
     max-width: 200px;
@@ -157,6 +170,9 @@ button:active {
     background-position: center;
     background-size: cover;
 }
+
+.words>.wordCard+.wordCard { margin-top: 16px;}
+.cards>.descCard+.descCard { margin-top: 16px;}
 
 .pink {
     background-image: url('../img/pink_card.svg');
